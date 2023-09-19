@@ -29,10 +29,10 @@
                     <input class = "searchquery" type="text" placeholder="Search for leads, pages...">
                     </div>
                 </li>
-                <li ><div class="calendar">
+                <li ><div  class="calendar" >
                     <img class = "topbarpic" src = "images/Vector-11.png">
                     <a>CURRENT DATE</a>
-                    <img src = "images/Vector-12.png" width = 10px>
+                    <img onclick = "doTime()" src = "images/Vector-12.png" width = 10px>
                     </div>
                 </li>
                 <li ><div class="profile">
@@ -46,5 +46,11 @@
     </main>
     
 </body>
+
+<script>
+    function doTime(){
+        alert(Date());
+    }
+</script>
 
 </html>
